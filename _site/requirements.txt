@@ -1,5 +1,7 @@
 # Requirements for the demo notebooks
 # Useful for MyBinder configuration
+plotly
+cython
 pandas
 numpy
 datascience

@@ -16,7 +16,7 @@
 
 #######################################################################################
 # Jekyll site settings
-title: YOUR BOOK NAME
+title: Time-optimized 4D phase contrast MRI with real-time convex optimization of gradient waveforms and fast excitation methods
 author: YOUR AUTHOR NAME
 email: YOUR EMAIL
 description: >-
@@ -38,7 +38,7 @@ show_sidebar: true                # Show the sidebar. Only set to false if your 
 collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
 collapse_inactive_sections: true  # Whether to collapse the sub-sections within a non-active section in the sidebar
 textbook_logo: images/logo/logo.png               # A logo to be displayed at the top of your textbook sidebar. Should be square
-textbook_logo_link: https://jupyterbook.org/                    # A link for the logo.
+textbook_logo_link: https://github.com/FilipVel/cvxflow_book1/                   # A link for the logo.
 sidebar_footer_text: Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
 number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
@@ -65,13 +65,13 @@ jupyterhub_url: ''                     # The URL for your JupyterHub. If no URL,
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
 
 # Binder link settings
-use_binder_button: false                 # If 'true', add a binder button for interactive links
+use_binder_button: true                 # If 'true', add a binder button for interactive links
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
-binder_repo_org: YOUR-ORG                     # The username or organization that owns this repository
-binder_repo_name: YOUR-REPO                        # The name of the repository on the web
-binder_repo_branch: gh-pages                   # The branch on which your textbook is hosted.
-binderhub_interact_text: Interact              # The text that interact buttons will contain.
+binder_repo_org: FilipVel                     # The username or organization that owns this repository
+binder_repo_name: cvxflow_book1                        # The name of the repository on the web
+binder_repo_branch: master                   # The branch on which your textbook is hosted.
+binderhub_interact_text: Interact with Binder              # The text that interact buttons will contain.
 
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
