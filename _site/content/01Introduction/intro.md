@@ -1,0 +1,4 @@
+An interactive Jupyter Book for the highlighted paper by Michael Loecher, Patrick Magrath, Eric Aliotta, Daniel B. Ennis  from the University of California in Los Angeles, USA. The paper is entitled “Time‐optimized 4D phase contrast MRI with real‐time convex
+optimization of gradient waveforms and fast excitation methods.
+
+The Jupyter Book allows the demo script to be interactive inline (can change and run the code on the website) or launch a MyBinder session to run your code in a Jupyter Notebook in your browser, both options requiring no installation. The last section is for some of the figures and data from the paper, made interactive using Plotly.
