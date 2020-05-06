@@ -2,6 +2,7 @@
 # Useful for MyBinder configuration
 Cython==0.29.16
 numpy==1.18.3
+plotly
 pandas
 datascience
 folium
