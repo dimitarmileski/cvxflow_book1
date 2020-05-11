@@ -26,8 +26,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "http://localhost:4000//search",
   "headline": "Search the site",
-  "datePublished": "2020-05-11T11:14:22+02:00",
-  "dateModified": "2020-05-11T11:14:22+02:00",
+  "datePublished": "2020-05-11T11:18:50+02:00",
+  "dateModified": "2020-05-11T11:18:50+02:00",
   "description": "        ",
   "author": {
     "@type": "Person",
@@ -569,6 +569,10 @@ initFunction(initPrint)
     
       
       
+        <li><h2 class="c-sidebar__title">Content</li>
+        
+      
+      
 
       
       
@@ -577,12 +581,12 @@ initFunction(initPrint)
 
       
       
-      <li class="c-sidebar__chapter" data-url="/intro">
+      <li class="c-sidebar__chapter" data-url="/01Introduction/intro">
         <a class="c-sidebar__entry"
-          href="/intro.html"
+          href="/01Introduction/intro.html"
         >
           
-          Home
+          Introduction
         </a>
       </li>
 
@@ -608,45 +612,12 @@ initFunction(initPrint)
 
       
       
-      <li class="c-sidebar__chapter" data-url="https://github.com/jupyter/jupyter-book">
+      <li class="c-sidebar__chapter" data-url="/02Abstract/abstract">
         <a class="c-sidebar__entry"
-          href="https://github.com/jupyter/jupyter-book"
+          href="/02Abstract/abstract.html"
         >
           
-          GitHub repository
-        </a>
-      </li>
-
-      
-      
-
-      
-
-      
-      
-
-      
-
-      
-    
-      
-      
-
-      
-      
-      
-      
-
-      
-      
-      <li class="c-sidebar__chapter" data-url="">
-        <a class="c-sidebar__entry"
-          href=".html"
-        >
-          
-            1.
-          
-          GitHub repository
+          Abstract
         </a>
       </li>
 
@@ -668,10 +639,6 @@ initFunction(initPrint)
         
       
       
-        <li><h2 class="c-sidebar__title">Demo textbook</li>
-        
-      
-      
 
       
       
@@ -680,12 +647,12 @@ initFunction(initPrint)
 
       
       
-      <li class="c-sidebar__chapter" data-url="/features/features">
+      <li class="c-sidebar__chapter" data-url="/03Demo_Code/demo">
         <a class="c-sidebar__entry"
-          href="/features/features.html"
+          href="/03Demo_Code/demo.html"
         >
           
-          Features and customization
+          Code Examples
         </a>
       </li>
 
@@ -712,12 +679,12 @@ initFunction(initPrint)
             
             
 
-            <li class="c-sidebar__section" data-url="/features/markdown">
+            <li class="c-sidebar__section" data-url="/03Demo_Code/demo">
               <a class="c-sidebar__entry"
-                href="/features/markdown.html"
+                href="/03Demo_Code/demo.html"
               >
                 
-                Markdown files
+                Code Examples
               </a>
             </li>
             
@@ -731,18 +698,53 @@ initFunction(initPrint)
             
             
 
-            <li class="c-sidebar__section" data-url="/features/notebooks">
+            <li class="c-sidebar__section" data-url="/04Plotly/plotly">
               <a class="c-sidebar__entry"
-                href="/features/notebooks.html"
+                href="/04Plotly/plotly.html"
               >
                 
-                Markdown files
+                Plotly Figures
               </a>
             </li>
             
             
           
         </ul>
+      
+
+      
+    
+      
+      
+        <li class="c-sidebar__divider"></li>
+        
+      
+      
+
+      
+      
+      
+      
+
+      
+      
+      <li class="c-sidebar__chapter" data-url="https://github.com/Notebook-Factory/PhaseUnwrapping_book">
+        <a class="c-sidebar__entry"
+          href="https://github.com/Notebook-Factory/PhaseUnwrapping_book"
+        >
+          
+          GitHub repository
+        </a>
+      </li>
+
+      
+      
+
+      
+
+      
+      
+
       
 
       
@@ -797,6 +799,34 @@ initFunction(initPrint)
 <script>
     // Add the lunr store since we will now search it
     var store = [{
+        "title": "Introduction",
+        
+        "excerpt": "interactive jupyter paper book run code highlighted michael loecher patrick magrath eric aliotta daniel b ennis university california los angeles usa entitled timeoptimized d phase contrast mri realtime convex optimization gradient waveforms fast excitation methods allows demo script inline change website launch mybinder session notebook browser both options requiring installation last section figures data made using plotly",
+        "categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/01Introduction/intro.html",
+        "teaser":null},{
+        "title": "Abstract",
+        
+        "excerpt": "sup flow br california ml s d waveforms compared sequence phantom university los angeles trs gradient realtime convex optimization gradients excitation method scan parameters conventional eddy bias agreement loa daniel ennis department radiological sciences shorten fast rf used methods shortened phase msub sub peripheral nerve stimulation range volunteers measured currents stanford michael loecher patrick magrath eric aliotta b bioengineering supdepartment biomedical physics purpose acquisitions shortening pulses generate scanner theory slabselect minimum slr timeoptimal variablerate selective bipolar spoiler finding shortest satisfied constraints hardware calculated te tr values tested phantoms aorta neurovasculature n additionally current error large results tes respectively blandaltman analysis",
+        "categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/02Abstract/abstract.html",
+        "teaser":null},{
+        "title": "Code Examples",
+        
+        "excerpt": null,
+        "categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/03Demo_Code/demo.html",
+        "teaser":null},{
+        "title": "Plotly Figures",
+        
+        "excerpt": null,
+        "categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/04Plotly/plotly.html",
+        "teaser":null},{
         "title": "Features and customization",
         
         "excerpt": "content textbook jupyter markdown notebooks called book repository click chapter left section features short demonstration show general layout style textbooks built jekyll files page others generated scripts generatetextbook py script run contained folder books combination rendered into here begin sections sidebar demonstrates simple functionality while following chapters contain subset foundations data science inferentialthinking com quickstart shows couple ways add course headers next button below order read further",
@@ -810,6 +840,13 @@ initFunction(initPrint)
         "categories": [],
         "tags": [],
         "url": "http://localhost:4000/features/markdown.html",
+        "teaser":null},{
+        "title": "Jupyter notebooks",
+        
+        "excerpt": "jupyter content notebooks code notebook also blocks book markdown original github com blob master jupyterbook minimal features ipynb only outputs math image output below well display python interactive page jekyll embed images html align textbooks example note before publishing remove cell generated map work create current contained folder repository means include export address etc into posts cool jpg add begin mbox mean la tex end sure escape dollar signs want keep site heres sample matplotlib above captured displayed removing web used still show here pandas dataframe again configure text uses modifying books config yml file even same material using ipyleaflet",
+        "categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/features/notebooks.html",
         "teaser":null},{
         "title": "Home",
         
