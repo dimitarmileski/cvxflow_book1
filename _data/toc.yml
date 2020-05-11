@@ -10,17 +10,13 @@
   not_numbered: true
 - divider: true
 # A chapter w/ a collection of sections beneath it
-- title: Code Examples
+  header: Code Examples
+- title: Demo Code
   url: /03Demo_Code/demo
   not_numbered: true
-  expand_sections: true
-  sections:
-    - title: Demo Code
-      url: /03Demo_Code/demo
-      not_numbered: true
-    - title: Plotly Figures
-      url: /04Plotly/plotly
-      not_numbered: true
+- title: Plotly Figures
+  url: /04Plotly/plotly
+  not_numbered: true
 
 # Divider for meta-pages and content page
 - divider: true
