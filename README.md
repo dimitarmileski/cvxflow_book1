@@ -1,4 +1,4 @@
-# 3DREAM Jupyter-Book
+# CVXFlow Jupyter-Book
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FilipVel/cvxflow_book1/master)
 
