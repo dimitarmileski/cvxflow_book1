@@ -1,1 +1,0 @@
-g++ -O3 gropt_proc_spoiler.cpp -o cvx_spoil_standalone

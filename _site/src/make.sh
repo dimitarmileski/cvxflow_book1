@@ -1,1 +1,0 @@
-g++ -O3 gropt_proc.cpp -o cvx_standalone
