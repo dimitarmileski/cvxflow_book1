@@ -11,17 +11,14 @@
 - divider: true
 # A chapter w/ a collection of sections beneath it
   header: Code Examples
-- title: Demo Code
-  url: /03Demo_Code/demo
-  not_numbered: true
-- title: Plotly Figures
-  url: /04Plotly/plotly
+- title: Example
+  url: /03Example/demo
   not_numbered: true
 
 # Divider for meta-pages and content page
 - divider: true
 
-- title: GitHub repository
-  url: https://github.com/Notebook-Factory/cvxflow_book1
+- title: Original code 
+  url: https://github.com/mloecher/cvxflow
   external: true
   not_numbered: true
