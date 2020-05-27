@@ -4,5 +4,3 @@ Welcome to an interactive Jupyter Book for the Magnetic Resonance in Medicine pa
 This Jupyter Book lets you interact with a [demo of their code](https://github.com/mloecher/cvxflow) used to generate gradient waveforms for 4D-Flow MRI. You can change the code by inline on the pages or launch a MyBinder session to run your code in a Jupyter Notebook in another tab. The figures are made interactive using [Plotly](https://plotly.com).
 
 
-```
-```
