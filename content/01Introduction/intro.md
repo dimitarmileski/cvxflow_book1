@@ -5,4 +5,4 @@ This Jupyter Book lets you interact with a [demo of their code](https://github.c
 
 
 <img src="../images/mrm.png"    align="center">
-*<center>Paper published in MRM Journal, Volume 82, Issue 1</center>*
+<center>*Paper published in MRM Journal, Volume 82, Issue 1*</center>
