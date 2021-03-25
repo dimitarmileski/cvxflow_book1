@@ -1,3 +1,5 @@
+# CVXFlow
+
 import numpy as np
 import gropt
 import scipy.io as sio
