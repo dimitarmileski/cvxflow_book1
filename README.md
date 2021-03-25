@@ -1,6 +1,6 @@
 # CVXFlow Jupyter-Book
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FilipVel/cvxflow_book1/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dimitarmileski/cvxflow_book1/HEAD)
 
 Paper: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27716 
 
@@ -15,4 +15,4 @@ Code: https://github.com/mloecher/cvxflow
 
 
 
-A demo of the hosted book: https://dimitarmileski.github.io/
+A demo of the hosted book: https://dimitarmileski.github.io/cvxflow_book1/
