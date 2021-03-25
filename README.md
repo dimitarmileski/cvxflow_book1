@@ -15,4 +15,4 @@ Code: https://github.com/mloecher/cvxflow
 
 
 
-A demo of the hosted book: https://dimitarmileski.github.io/
+A demo of the hosted book: https://dimitarmileski.github.io/cvxflow_book1/
