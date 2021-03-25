@@ -1,0 +1,16 @@
+- file: intro
+  title: "Introduction" 
+
+- part: "Content"
+  chapters:
+  - file: 01/abstract
+    title: "Abstract"
+  - file: 02/cvxflow_code
+    title: "Code"
+
+- part: "External resources"
+  chapters:
+  - url: https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27716
+    title: "Published article" 
+  - url: https://github.com/mloecher/cvxflow
+    title: "GitHub repository" 
