@@ -1,3 +1,4 @@
+# Introduction    
 Welcome to an interactive Jupyter Book for the Magnetic Resonance in Medicine paper by Michael Loecher et al entitled "[*Time‐optimized 4D phase contrast MRI with real‐time convex optimization of gradient waveforms and fast excitation methods*](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27716)".
 
 
