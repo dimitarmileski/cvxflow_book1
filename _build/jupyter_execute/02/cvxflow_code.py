@@ -52,18 +52,18 @@ G3_old = np.reshape(G, (3,-1))
 x = np.arange(29)
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=x, y=G3_old[0],
-                    mode='lines',
+                    mode='lines+markers',
                     line=dict(color='rgb(88, 153, 199)'),
                     name = 'Gx'
                     ))
 fig.add_trace(go.Scatter(x=x, y=G3_old[1],
-                    mode='lines',
+                    mode='lines+markers',
                     line=dict(color='rgb(255, 147, 52)'),
                     name = 'Gy'
                          
                     ))
 fig.add_trace(go.Scatter(x=x, y=G3_old[2],
-                    mode='lines',
+                    mode='lines+markers',
                     line = dict(color = 'rgb(105, 187, 105)'),
                     name = 'Gz'
                      ))
@@ -91,17 +91,17 @@ print(resid)
 G3 = np.reshape(G, (3,-1))
 fig2 = go.Figure()
 fig2.add_trace(go.Scatter(x=x, y=G3[0],
-                    mode='lines',
+                    mode='lines+markers',
                     line=dict(color='rgb(88, 153, 199)'),
                     name = 'Gx'
                     ))
 fig2.add_trace(go.Scatter(x=x, y=G3[1],
-                    mode='lines',
+                    mode='lines+markers',
                     line=dict(color='rgb(255, 147, 52)'),
                     name = 'Gy'
                     ))
 fig2.add_trace(go.Scatter(x=x, y=G3[2],
-                    mode='lines',
+                    mode='lines+markers',
                     line = dict(color = 'rgb(105, 187, 105)'),
                     name = 'Gz'
                      ))
@@ -117,33 +117,33 @@ display(HTML('fig2.html'))
 
 fig3 = go.Figure()
 fig3.add_trace(go.Scatter(x=x, y=G3_old[0],
-                    mode='lines',
+                    mode='lines+markers',
                     name = 'Gx before',
                     line=dict(color='rgb(88, 153, 199)')
                     ))
 fig3.add_trace(go.Scatter(x=x, y=G3[0],
-                    mode='lines',
+                    mode='lines+markers',
                     name = 'Gx after'
                     ))
 fig3.add_trace(go.Scatter(x=x, y=G3_old[1],
-                    mode='lines',
+                    mode='lines+markers',
                      name = 'Gy before',
                      visible = False,
                      line=dict(color='rgb(255, 147, 52)')
                     ))
 fig3.add_trace(go.Scatter(x=x, y=G3[1],
-                    mode='lines',
+                    mode='lines+markers',
                     visible = False,
                     name = 'Gy after'
                     ))
 fig3.add_trace(go.Scatter(x=x, y=G3_old[2],
-                    mode='lines',
+                    mode='lines+markers',
                     visible = False,      
                     name = 'Gz before',
                     line = dict(color = 'rgb(105, 187, 105)')
                      ))
 fig3.add_trace(go.Scatter(x=x, y=G3[2],
-                    mode='lines',
+                    mode='lines+markers',
                     name = 'Gz after',
                     visible = False,
                     
